@@ -25,7 +25,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
 .container-welcome{
-    height: 36.25rem;
     color: white;
     text-align: center;
     display: flex;
@@ -47,8 +46,6 @@ h1, h2, h3, h4, h5, h6 {
 .article1
 {   
     font-size: 2.0625rem;
-    margin-top: .75rem;
-    margin-bottom: 0rem;
     text-align: center;
     margin: 0 auto;
     padding: 0 1.25rem;
@@ -194,7 +191,7 @@ figure {
 .comma {
     margin-left: 1.25rem;
     right: 16.875rem;
-    top: 117.5rem;
+    top: 118.5rem;
     position: absolute;
 }
 .third-text{
@@ -234,10 +231,64 @@ figure {
 
 .frame-list-108 {
     list-style-type: none;
-    display: flex;
-    flex-direction: column;
+    padding: 0;
+    counter-reset: li;
+    list-style-type: none;
+    line-height: 160%;
+    font-weight: light;
+    font-size: .875rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0rem;
 }
 
+.marker-1 {
+    padding-left: 2rem;
+    background-image: url(/images/WHY116.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    margin-bottom: 2rem;
+}
+
+.nordic-1 {
+    padding-left: 2rem;
+
+}
+
+.marker-2 {
+    padding-left: 2rem;
+    background-image: url(/images/WHY117.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    margin-bottom: 2rem;
+}
+
+.nordic-2 {
+    padding-left: 2rem;
+}
+
+.marker-3 {
+    padding-left: 2rem;
+    background-image: url(/images/WHY118.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    margin-bottom: 2rem;
+}
+
+.nordic-3 {
+    padding-left: 2rem;
+}
+
+.marker-4 {
+    padding-left: 2rem;
+    background-image: url(/images/WHY119.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    margin-bottom: 2rem;
+}
+
+.nordic-4 {
+    padding-left: 2rem;
+}
 
 .wrapper-2{
     background-color: #222733;
@@ -261,10 +312,14 @@ figure {
     margin-top: 2.625rem;
 }
 .arrow {
+    background-color:rgba(28,28,28,0);
     margin-left: 6.25rem;
+    border: rgba(28,28,28,0);
 }
 .arrow-2 {
     margin-left: .375rem;
+    background-color:rgba(28,28,28,0);
+    border: rgba(28,28,28,0);
 }
 .endtxt{
     font-size: 1.625rem;
@@ -297,4 +352,18 @@ figure {
     margin-top: 2rem;
 }
 
+.vk {
+    margin-right: 20px;
+}
 
+.facebook {
+    margin-right: 20px;
+}
+
+.twitter {
+    margin-right: 20px;
+}
+
+.instagram {
+    margin-right: 20px;
+}
