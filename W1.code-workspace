@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "w2",
+			"path": "D:/reposit/w2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "W1"
+	}
+}

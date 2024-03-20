@@ -11,67 +11,68 @@ html {
 :root {
     --main-color: black; /* Пример значения цвета */
     --secondary-color: #ffffff;
+    --font-size: 62.5%;
 
 }
 body{
     font-family: 'LabGrotesque-Regular', sans-serif;
-    font-size: 16px;
-    padding: 0px;
+    font-size: 1rem;
+    padding: 0rem;
     color: black;
     height: 100%;
-}
-.firstback{
-    height: 580px;
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
-.welcome{
-    height: 580px;
+.container-welcome{
+    height: 36.25rem;
     color: white;
     text-align: center;
     display: flex;
     align-items: center;
-}
-.image-back-1 {
-    width: 0%;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
+.backimage-1 {
+    width: 0%;
+    max-width: 100%;
+}
 .title
 {   
-    font-size: 14px;
-    margin-top: 57px;
+    font-size: .875rem;
+    margin-top: 3.5625rem;
     opacity: 80%;
 }
 .article1
 {   
-    font-size: 33px;
-    margin-top: 12px;
-    margin-bottom: 0px;
+    font-size: 2.0625rem;
+    margin-top: .75rem;
+    margin-bottom: 0rem;
     text-align: center;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 1.25rem;
 }
 .text1{ 
-    font-size: 16px;
+    font-size: 1rem;
     opacity: 80%;
-    margin: 16px auto;
-    padding: 0 20px;
+    margin: 1rem auto;
+    padding: 0 1.25rem;
     line-height: 140%;
 }
 .header {
-    height: 100px;
+    height: 6.25rem;
     display: flex;
     align-items: start;
     justify-content: center;
     position: absolute;
 }
 .header__button{
-margin-left: 72px;
-margin-top: 38px;
+margin-left: 4.5rem;
+margin-top: 2.375rem;
 }
 .header__link{
-    margin-left: 119px;
+    margin-left: 7.4375rem;
 }
 .nav {
     float: right;
@@ -82,34 +83,34 @@ margin-top: 38px;
 }
 .top50{
     color: #F31B62;
-    font-size: 16px;
-    margin-top: 33px;
-    margin-bottom: 1px;
+    font-size: 1rem;
+    margin-top: 2.0625rem;
+    margin-bottom: .0625rem;
 }
 .tree1{
-    margin-left: 28px;
+    margin-left: 1.75rem;
 }
 .eat{
 
 }
 .tree2{
     transform: scale(-1, 1);
-    margin-right: 28px;
+    margin-right: 1.75rem;
 }
 
 .button-z {
     display: inline-block;
-    padding: 18px 100px;
-    margin-top: 32px;
+    padding: 1.125rem 6.25rem;
+    margin-top: 2rem;
     background-color: #fff;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
     text-align: center;
     cursor: pointer;
 }
 
 .linkta {
-    font-size: 16px;
+    font-size: 1rem;
     text-decoration: none;
     color: #000;
 }
@@ -117,36 +118,36 @@ margin-top: 38px;
 .second
 {
     color:black;
-    margin-top: 60px;
-    padding: 0px 16px;
+    margin-top: 3.75rem;
+    padding: 0rem 1rem;
 }
 h2{
-    font-size: 14px;
+    font-size: .875rem;
     text-align: left;
 }
 .text2{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     text-align: left;
     line-height: 120%;
 }
 .text3{
-    font-size: 14px;
+    font-size: .875rem;
     font-weight: lighter;
     text-align: left;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
     line-height: 140%;
 }
 .text4{
-    font-size: 14px;
+    font-size: .875rem;
     text-align: left;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
     line-height: 170%;
 }
 
 
 .list {
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 
 .stats {
@@ -158,7 +159,7 @@ h2{
 .stats li {
     display: inline-grid;
     align-items: center;
-    width: 152px;
+    width: 9.5rem;
 }
 
 .stats li:last-child {
@@ -167,21 +168,21 @@ h2{
 
 .stats li .number {
     font-weight: bold;
-    font-size: 40px;
-    margin-right: 10px;
-    margin-top: 24px;
+    font-size: 2.5rem;
+    margin-right: .625rem;
+    margin-top: 1.5rem;
 }
 
 .stats li .text {
-    font-size: 14px;
+    font-size: .875rem;
     line-height: 140%;
-    margin-top: 12px;
+    margin-top: .75rem;
 }
 
 .third{
     color: black;
-    margin-top: 76px;
-    padding: 0px 16px;
+    margin-top: 4.75rem;
+    padding: 0rem 1rem;
 }
 
 figure {
@@ -191,43 +192,43 @@ figure {
 }
 
 .comma {
-    margin-left: 20px;
-    right: 270px;
-    top: 1880px;
+    margin-left: 1.25rem;
+    right: 16.875rem;
+    top: 117.5rem;
     position: absolute;
 }
 .third-text{
     text-align: left;
 }
 .article2 {
-    font-size: 22px;
-    margin-top: 24px;
+    font-size: 1.375rem;
+    margin-top: 1.5rem;
     line-height: 130%;
 }
 .chief {
-    font-size: 14px;
-    margin-top: 40px;
+    font-size: .875rem;
+    margin-top: 2.5rem;
 }
 .name{
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: bold;
-    margin-top: 12px;
+    margin-top: .75rem;
 }
 
 .why_we{
     color: black;
-    margin-top: 60px;
-    padding: 0px 16px;
+    margin-top: 3.75rem;
+    padding: 0rem 1rem;
 
 }
 .linewe {
     text-align: left;
-    font-size: 14px;
+    font-size: .875rem;
 
 }
 .article3 {
     text-align: left;
-    font-size:24px;
+    font-size:1.5rem;
     font-weight: bold;
 }
 
@@ -242,58 +243,58 @@ figure {
     background-color: #222733;
     background-image: url(./images/Rectangle\ 65393.png);
     background-repeat: no-repeat;
-    height: 624px;
+    height: 39rem;
 }
 .end{
     color:#ffffff;
     margin-top: 116px;
     padding: 0px 16px;
     text-align: left;
-    height: 624px;
+    height: 39rem;
 }
 .CMI {
-    font-size: 14px;
+    font-size: .875rem;
     opacity: 80%;
-    padding-top: 60px;
+    padding-top: 3.75rem;
 }
 .two-zap {
-    margin-top: 42px;
+    margin-top: 2.625rem;
 }
 .arrow {
-    margin-left: 100px;
+    margin-left: 6.25rem;
 }
 .arrow-2 {
-    margin-left: 6px;
+    margin-left: .375rem;
 }
 .endtxt{
-    font-size: 26px;
-    padding-top: 24px;
-    padding-bottom: 6px;
+    font-size: 1.625rem;
+    padding-top: 1.5rem;
+    padding-bottom: .375rem;
     line-height: 130%;
 }
 .footer {
     color: #222733;
-    padding: 0px 16px;
+    padding: 0rem 1rem;
     text-align: left;
 }
 
 .nordic {
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .numberr {
-    margin-top:32px;
+    margin-top:2rem;
 }
 
 .restaurant {
     position: relative;
-    bottom: 35px;
-    left: 150px;
-    max-width: 200px;
+    bottom: 2.1875rem;
+    left: 9.375rem;
+    max-width: 12.5rem;
 }
 
 .links {
-    margin-top: 32px;
+    margin-top: 2rem;
 }
 
 
