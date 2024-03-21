@@ -112,8 +112,7 @@ margin-top: 2.375rem;
     color: #000;
 }
 
-.second
-{
+.container-second {
     color:black;
     margin-top: 3.75rem;
     padding: 0rem 1rem;
@@ -176,7 +175,7 @@ h2{
     margin-top: .75rem;
 }
 
-.third{
+.container-third{
     color: black;
     margin-top: 4.75rem;
     padding: 0rem 1rem;
@@ -212,7 +211,7 @@ figure {
     margin-top: .75rem;
 }
 
-.why_we{
+.container-4{
     color: black;
     margin-top: 3.75rem;
     padding: 0rem 1rem;
@@ -290,13 +289,13 @@ figure {
     padding-left: 2rem;
 }
 
-.wrapper-2{
+.back-image-2{
     background-color: #222733;
     background-image: url(./images/Rectangle\ 65393.png);
     background-repeat: no-repeat;
     height: 39rem;
 }
-.end{
+.container-end{
     color:#ffffff;
     margin-top: 116px;
     padding: 0px 16px;
