@@ -9,9 +9,8 @@ html {
     box-sizing: inherit;
 }
 :root {
-    --main-color: black; /* Пример значения цвета */
-    --secondary-color: #ffffff;
-    --font-size: 62.5%;
+
+    /*font-size: 62.5%;*/
 
 }
 body{
@@ -20,35 +19,66 @@ body{
     padding: 0rem;
     color: black;
     height: 100%;
+    min-width: 23.4375rem;
 }
+
+header {
+    background-color: #fff;
+    background-image: url(/images/back_desk.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 580px;
+
+    min-width: 375px;
+
+}
+
+.header {
+    min-height: 6.25rem;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+
+.header__button{
+    margin-left: 90%;
+    margin-top: 2rem;
+    border: none;
+    background-color: #00000000;
+    position: absolute;
+}
+.header__link{
+    margin-left: .375rem;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
+
+
 .container-welcome{
-    color: white;
-    text-align: center;
-    display: flex;
-    align-items: center;
     max-width: 100%;
     margin: 0 auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
 }
 
-.backimage-1 {
-    width: 0%;
-    max-width: 100%;
+.block-text-1 {
+    text-align: center;
+    color: #fff;
 }
 .title
 {   
     font-size: .875rem;
-    margin-top: 3.5625rem;
     opacity: 80%;
 }
 .article1
 {   
     font-size: 2.0625rem;
-    text-align: center;
-    margin: 0 auto;
-    padding: 0 1.25rem;
+    margin: .0625rem;
 }
 .text1{ 
     font-size: 1rem;
@@ -57,26 +87,11 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0 1.25rem;
     line-height: 140%;
 }
-.header {
-    height: 6.25rem;
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    position: absolute;
-}
-.header__button{
-margin-left: 4.5rem;
-margin-top: 2.375rem;
-}
-.header__link{
-    margin-left: 7.4375rem;
-}
-.nav {
-    float: right;
-}
+
 
 .block-text2 {
     align-items: center;
+    text-align: center;
 }
 .top50{
     color: #F31B62;
@@ -96,14 +111,12 @@ margin-top: 2.375rem;
 }
 
 .button-z {
-    display: inline-block;
-    padding: 1.125rem 6.25rem;
-    margin-top: 2rem;
+    padding: 20px 50px;
     background-color: #fff;
     font-size: 1rem;
     font-weight: bold;
     text-align: center;
-    cursor: pointer;
+    margin: 1.5rem 1.5rem;
 }
 
 .linkta {
@@ -112,14 +125,59 @@ margin-top: 2.375rem;
     color: #000;
 }
 
-.container-second {
-    color:black;
-    margin-top: 3.75rem;
-    padding: 0rem 1rem;
+.ul-links {
+    display: none;
+    visibility: hidden;
 }
-h2{
+
+.animated-link {
+    position: relative;
+    display: block;
+}
+
+.animated-link::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: -4px;
+    opacity: 0;
+}
+
+.animated-link::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    opacity: 0;
+}
+
+.li .animated-link::before,
+.li .animated-link::after {
+    transition: opacity 0.3s;;
+}
+
+.li:hover .animated-link::before,
+.li:hover .animated-link::after {
+    opacity: 1;
+}
+
+
+.container-second {
+    margin: 0 auto;
+    padding: 0rem 1rem;
+    padding-top: 3.75rem;
+}
+
+.about {
     font-size: .875rem;
-    text-align: left;
 }
 .text2{
     font-size: 1.5rem;
@@ -176,30 +234,34 @@ h2{
 }
 
 .container-third{
-    color: black;
-    margin-top: 4.75rem;
-    padding: 0rem 1rem;
-}
-
-figure {
-    display: flex;
-    flex-flow: column;
-    margin:auto;
+    padding-top: 4.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .comma {
-    margin-left: 1.25rem;
-    right: 16.875rem;
-    top: 118.5rem;
-    position: absolute;
+    display: none;
 }
-.third-text{
-    text-align: left;
+
+.povar{
+    display: none;
+}
+.povar-m {
+    display: block;
+}
+
+figure{
+    margin-left: 0rem;
+}
+
+.third-text {
+
 }
 .article2 {
     font-size: 1.375rem;
     margin-top: 1.5rem;
     line-height: 130%;
+    text-align: left;
 }
 .chief {
     font-size: .875rem;
@@ -212,10 +274,14 @@ figure {
 }
 
 .container-4{
-    color: black;
-    margin-top: 3.75rem;
-    padding: 0rem 1rem;
+    padding-top: 3.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 
+}
+
+.video {
+    display: block;
 }
 .linewe {
     text-align: left;
@@ -289,16 +355,20 @@ figure {
     padding-left: 2rem;
 }
 
+.section-end {
+    padding-top: 116px;
+}
 .back-image-2{
     background-color: #222733;
     background-image: url(./images/Rectangle\ 65393.png);
     background-repeat: no-repeat;
     height: 39rem;
+    background-size: 100%;
 }
 .container-end{
     color:#ffffff;
-    margin-top: 116px;
-    padding: 0px 16px;
+    padding-left: 16px;
+    padding-right: 16px;
     text-align: left;
     height: 39rem;
 }
@@ -365,4 +435,31 @@ figure {
 
 .instagram {
     margin-right: 20px;
+}
+
+@media screen  and (min-width:1024px){
+
+    header{
+        min-height: 100%;
+    }
+
+    .povar{
+        display: block;
+    }
+    .povar-m{
+        display: none;
+    }
+    .comma {
+        display: block;
+    }
+    .container-third{
+        display: flex;
+        margin-left: 2%;
+        margin-right: 5%;
+    }
+    .article2 {
+        margin-left: 5%;
+        margin-right: 2%;
+        margin-top: 5%;
+    }
 }
