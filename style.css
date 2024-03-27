@@ -39,7 +39,6 @@ header {
     display: flex;
     align-items: start;
     justify-content: center;
-    padding-bottom: 20px;
 }
 
 
@@ -62,8 +61,8 @@ h1, h2, h3, h4, h5, h6 {
 .container-welcome{
     max-width: 100%;
     margin: 0 auto;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+    padding-left: .625rem;
+    padding-right: .625rem
 }
 
 .block-text-1 {
@@ -124,51 +123,6 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     color: #000;
 }
-
-.ul-links {
-    display: none;
-    visibility: hidden;
-}
-
-.animated-link {
-    position: relative;
-    display: block;
-}
-
-.animated-link::before {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 2px;
-    background-color: #fff;
-    position: absolute;
-    left: 0;
-    top: -4px;
-    opacity: 0;
-}
-
-.animated-link::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 2px;
-    background-color: #fff;
-    position: absolute;
-    left: 0;
-    bottom: -4px;
-    opacity: 0;
-}
-
-.li .animated-link::before,
-.li .animated-link::after {
-    transition: opacity 0.3s;;
-}
-
-.li:hover .animated-link::before,
-.li:hover .animated-link::after {
-    opacity: 1;
-}
-
 
 .container-second {
     margin: 0 auto;
